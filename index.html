@@ -171,14 +171,19 @@
 
         <script>
 
-            let toggleMenu = document.getElementById('toggleMenu');
-            let sidebar = document.querySelector('.sidebar');
+            document.addEventListener('DOMContentLoaded', ()=>{
 
-            toggleMenu.addEventListener('click', ()=>{
-
-                sidebar.classList.toggle('show');
+                let toggleMenu = document.getElementById('toggleMenu');
+                let sidebar = document.querySelector('.sidebar');
+    
+                toggleMenu.addEventListener('click', ()=>{
+    
+                    sidebar.classList.toggle('show');
+    
+                });
 
             })
+
 
         </script>
     </body>
