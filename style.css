@@ -1,0 +1,28 @@
+.sidebar {
+    transition: all 0.4s ;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 6px;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+@media (max-width: 995px) /*768px*/ {
+    
+    .sidebar {
+        position: fixed;
+        transform: translateX(-100%);
+        z-index: 1;
+    }
+
+    .sidebar.show {
+        transform: translateX(0);
+    }
+
+}
