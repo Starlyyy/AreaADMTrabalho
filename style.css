@@ -13,10 +13,12 @@
     background-color: #495057;
 }
 
-.col .card {
-    ;
+.col {
+    gap: 4px;
 }
-
+#grafico {
+    width: 500px;
+}
 @media (max-width: 995px) /*768px*/ {
     
     .sidebar {
